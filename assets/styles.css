@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0F1418;
+    max-inline-size: 1000px;
+    margin-inline: auto;
+}
+h2 {
+    color: #FBFFFF;
+    padding: 20px;
+}
+span {
+    color: #81DBC2;
+}
+ul {
+    color: #9FA4A8;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 10px;
+    white-space: 5px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
