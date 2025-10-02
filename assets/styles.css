@@ -8,12 +8,17 @@ body {
     max-inline-size: 1000px;
     margin-inline: auto;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
 h2 {
     color: #FBFFFF;
     padding: 20px;
 }
 span {
     color: #81DBC2;
+    margin-left: 5px;
 }
 ul {
     color: #9FA4A8;
@@ -24,7 +29,8 @@ ul {
     margin: 10px;
     white-space: 5px;
 }
-header {
-    display: flex;
-    justify-content: space-between;
+li a {
+    text-decoration: none;
+    color: #9FA4A8;
+    padding: 20px;
 }
