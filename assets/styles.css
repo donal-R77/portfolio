@@ -5,7 +5,7 @@
 }
 body {
     background-color: #0F1418;
-    max-inline-size: 1000px;
+    max-inline-size: 1200px;
     margin-inline: auto;
 }
 header {
@@ -33,4 +33,32 @@ li a {
     text-decoration: none;
     color: #9FA4A8;
     padding: 20px;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.greeting {
+    color: #FBFFFF;
+}
+.point-color {
+    color: #81DBC2;
+}
+.poste-as {
+    color: #6D7D8C;
+    padding: 0;
+}
+.greet-block {
+    margin-top: 10rem;
+}
+.my-name {
+    color: #FBFFFF;
+}
+.border {
+    width: 1000px;
+    height: 5px;
+    color: #0F1418;
+    background-color: #81DBC2;
 }
